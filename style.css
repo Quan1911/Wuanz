@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 20px;
+}
+
+#image {
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    border: 5px solid #333;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    font-size: 1.2em;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.preview {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    border: 3px solid #666;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.preview:hover {
+    opacity: 1.0;
+    border-color: #000;
+}

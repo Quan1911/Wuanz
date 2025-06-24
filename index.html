@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thư viện ảnh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Basic photo</h1>
+
+    <div id="image">
+        Di chuột qua một ảnh bên dưới để hiển thị ở đây.
+    </div>
+
+    <div class="gallery">
+        <img class="preview" 
+             alt="Một hồ nước thanh bình với núi non ở phía sau" 
+             src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img class="preview" 
+             alt="Một con tắc kè hoa nhiều màu sắc rực rỡ" 
+             src="https://images.pexels.com/photos/1581554/pexels-photo-1581554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img class="preview" 
+             alt="Cực quang phương Bắc (Aurora Borealis) tuyệt đẹp" 
+             src="https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
